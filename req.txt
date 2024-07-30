@@ -1,0 +1,9 @@
+PyPDF2
+scikit-learn
+numpy
+matplotlib
+opencv-python
+pytesseract
+nltk
+spacy
+
