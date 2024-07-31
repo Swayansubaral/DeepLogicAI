@@ -1,10 +1,10 @@
-Overview
+#Overview
 
 This project aims to develop a system that identifies and matches similar documents, specifically invoices, based on their content and structure. The system extracts text from PDF invoices, calculates similarities using various metrics (Cosine Similarity, Jaccard Similarity, and Image Similarity), and matches incoming invoices against a database of existing invoices.
 
-Approach
+#Approach
 
-Document Representation Method
+##Document Representation Method
 
 Text Extraction:
 Text content is extracted from PDF files using the PyPDF2 library.
