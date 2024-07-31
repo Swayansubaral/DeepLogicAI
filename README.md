@@ -1,10 +1,10 @@
-#Overview
+# Overview
 
 This project aims to develop a system that identifies and matches similar documents, specifically invoices, based on their content and structure. The system extracts text from PDF invoices, calculates similarities using various metrics (Cosine Similarity, Jaccard Similarity, and Image Similarity), and matches incoming invoices against a database of existing invoices.
 
-#Approach
+# Approach
 
-##Document Representation Method
+- Document Representation Method
 
 Text Extraction:
 Text content is extracted from PDF files using the PyPDF2 library.
@@ -18,7 +18,7 @@ Keywords: Extracted by tokenizing the text and converting it to lowercase.
 Image Extraction:
 Images from PDF files are extracted using PyPDF2 and saved as image files.
 
-Similarity Metrics Used
+- Similarity Metrics Used
 
 Cosine Similarity:
 Utilizes TF-IDF vectors of keywords to calculate the cosine similarity between two invoices.
@@ -27,15 +27,15 @@ Measures the overlap between the sets of keywords from two invoices.
 Image Similarity:
 Uses ORB (Oriented FAST and Rotated BRIEF) feature matching in OpenCV to compare the visual layout of invoices.
 
-How to Run the Code
+# How to Run the Code
 
-Prerequisites
+- Prerequisites
 
 Ensure the following Python libraries are installed:
 
 PIP INSTALL -r req.txt
 
-Project Structure
+# Project Structure
 Ensure your project directory has the following structure:
 
 scss
@@ -55,9 +55,9 @@ project_directory/
 ├── main.py
 └── README.md
 
-Running the Code
+# Running the Code
 
-1.Navigate to Project Directory:
+- Navigate to Project Directory:
 
 Open a terminal and navigate to the project directory:
 
@@ -65,7 +65,7 @@ bash
 
 cd /path/to/your/project_directory
 
-2.Run the Script:
+- Run the Script:
 
 Execute the main script:
 
